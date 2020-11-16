@@ -13,10 +13,6 @@ export default function Footer() {
           {emoji("Made with ❤️ by Kilian MAYANS")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Theme by{" "}
-          <a href="https://github.com/KilianMYS74/myPortfolio_v2.0">
-            developerFolio
-          </a>
         </p>
       </div>
     </Fade>
