@@ -105,30 +105,52 @@ const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "EPITECH Paris",
+      logo: require("./assets/images/epitechLogo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "September 2019 - July 2021",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      schoolName: "ESCP Europe",
+      logo: require("./assets/images/escpLogo.png"),
+      subHeader: "Entrepreunarial formation called Option E",
+      duration: "September 2020 - January 2021",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    },
+    {
+      schoolName: "DCU (Dublin City University)",
+      logo: require("./assets/images/dcuLogo.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "September 2019 - June 2020",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    },
+    {
+      schoolName: "EPITECH Lyon",
+      logo: require("./assets/images/epitechLogo.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "September 2016 - September 2019",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     }
   ]
 }
 
-// Your top 3 proficient stacks/tech experience
+// Your top proficient stacks/tech experience
 
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
@@ -153,7 +175,7 @@ const techStack = {
 };
 
 
-// Your top 3 work experiences
+// Your top work experiences
 
 const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
@@ -191,8 +213,8 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
+  githubUserName: "KilianMYS74", // Change to your github username to view your profile in Contact Section.
+  showGithubProfile :"false" // Set true or false to show Contact profile using Github, defaults to false
 };
 
 
@@ -200,15 +222,19 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME PROJECTS / TECH I WORKED ON WITHIN MY INTERNSHIPS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      image: require("./assets/images/escpBusinessSchoolLogo.jpg"),
+      link: "https://escp.eu/fr"
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      image: require("./assets/images/ravifruitLogo.jpg"),
+      link: "https://www.ravifruit.com/fr/"
+    },
+    {
+      image: require("./assets/images/lepetitpaumeLogo.jpg"),
+      link: "https://petitpaume.com/"
     }
   ]
 };
