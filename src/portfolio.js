@@ -26,7 +26,7 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What I use and those in-learning phase",
+  title: "What I ❤",
   subTitle: "I AM A CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("⚡ Develop highly interactive Front end & User Interfaces for your web and mobile applications ✏"),
