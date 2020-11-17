@@ -295,8 +295,8 @@ const bigProjects = {
 
 // Your Achievement Section Include Your Certification Talks and More
 
-const achievementSection = {
-
+/*const achievementSection = {
+  viewAchievements: false,
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
@@ -327,7 +327,7 @@ const achievementSection = {
       ]
     }
   ]
-};
+};*/
 
 // Blogs Section
 
@@ -390,4 +390,4 @@ const twitterDetails = {
   userName : "twitter"//Replace "twitter" with your twitter username without @
 
 };
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
