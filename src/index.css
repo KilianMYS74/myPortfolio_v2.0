@@ -19,8 +19,8 @@ body {
   scroll-behavior: smooth;
 }
 body {
-  -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
-  zoom: 80%; /* Webkit browsers */
+  -moz-transform: scale(0.86, 0.86); /* Moz-browsers */
+  zoom: 86%; /* Webkit browsers */
   margin: 0;
   font: 19px / 23px Montserrat, "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
