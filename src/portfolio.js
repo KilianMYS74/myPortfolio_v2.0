@@ -395,9 +395,9 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me ☎"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+33-664487430",
+  desc: "Aspiring Full-Stack Developer 👾 | Open Source Contributor 🔥 | In ❤ with new technologies 🤓 | Fully open for new opportunities 🚀",
   email_address: "mayanskilian@gmail.com"
 };
 

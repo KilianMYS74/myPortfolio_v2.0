@@ -44,10 +44,14 @@
 }
 
 .contact-image-div > img {
-  max-width: 100%;
+  border-radius: 50%;
+  border: .5rem solid #6c63ff;
+  margin-left: auto;
+  width: 100%;
+  max-width: 350px;
   height: auto;
-  margin-left: 1.5rem;
-  margin-top: -4rem;
+  box-shadow: 0 30px 30px -30px #000;
+  transition: all .3s ease-out;
 }
 
 /* Media Query */
