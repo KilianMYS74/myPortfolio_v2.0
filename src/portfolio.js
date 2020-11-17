@@ -110,7 +110,7 @@ const educationInfo = {
       logo: require("./assets/images/epitechLogo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "September 2019 - July 2021",
-      desc: "Activities and associations: Epitech Innovative Project (EIP)",
+      desc: "Activities and associations: Epitech Innovative Project (EIP).",
       descBullets: [
         "Agile methods",
         "Project Management",
@@ -123,9 +123,9 @@ const educationInfo = {
     {
       schoolName: "ESCP Europe",
       logo: require("./assets/images/escpLogo.png"),
-      subHeader: "Entrepreunarial formation called Option E",
+      subHeader: "Option E: Entrepreunarial and business formation",
       duration: "September 2020 - January 2021",
-      desc: "Activities and associations: Double Master 2 in partnership with EPITECH - Epitech Innovative Project (EIP) and Tech consulting (for Option E groups)",
+      desc: "Double Master 2 in partnership with EPITECH | Activities and associations: Epitech Innovative Project (EIP) and Tech consulting (for Option E groups).",
       descBullets: [
         "Design thinking & innovation",
         "Finance and venture capital",
@@ -138,11 +138,17 @@ const educationInfo = {
     {
       schoolName: "DCU (Dublin City University)",
       logo: require("./assets/images/dcuLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "Master 1 of Science in Computer Science",
       duration: "September 2019 - June 2020",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      desc: "Engineering and computing | 60/60 credits validated | Activities and associations: Epitech Innovative Project (EIP) and Gym association.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Business-IT",
+        "Entrepreneurship",
+        "Project Management",
+        "Agile methods",
+        "Cryptography and number theory",
+        "Cloud computing",
+        "..."
       ]
     },
     {
