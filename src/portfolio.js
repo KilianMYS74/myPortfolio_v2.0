@@ -269,7 +269,7 @@ const bigProjects = {
 
   projectsCards: [
     {
-      title: "ESCP Europe website",
+      title: "ESCP Europe",
       subtitle: "I worked on this website thanks to my 2nd year internship at Acti.",
       image: require("./assets/images/escpLogo.png"),
       footerLink: [
@@ -277,13 +277,13 @@ const bigProjects = {
       ]
     },
     {
-      title: "Ravifruit website",
+      title: "Ravifruit",
       subtitle: "I worked on this website thanks to my 2nd year internship at Acti.",
       image: require("./assets/images/ravifruitLogo.jpg"),
       footerLink: [{ name: "View website", url: "https://www.ravifruit.com/fr/" }]
     },
     {
-      title: "Le Petit-Paumé website",
+      title: "Le Petit-Paumé",
       subtitle: "I worked on this website thanks to my 2nd year internship at Acti.",
       image: require("./assets/images/lepetitpaumeLogo.jpg"),
       footerLink: [
@@ -297,6 +297,14 @@ const bigProjects = {
       footerLink: [
         { name: "View website", url: "https://eip.epitech.eu/2021/izheal/" },
         { name: "View prototype", url: "https://www.youtube.com/watch?v=2CDwEn0RJgo"}
+      ]
+    },
+    {
+      title: "HFIT",
+      subtitle: "HFIT is the main project of the Option E formation. I created the prototype thanks to Figma, feel free to take a look at it using the link below. The app will be developed thanks to Flutter. Status: work in progress.",
+      image: require("./assets/images/hfitLogo.jpeg"),
+      footerLink: [
+        { name: "View prototype", url: "https://www.figma.com/proto/daFeABulVYQBOEMilGZcqg/HFIT-Prototype?node-id=0%3A2&scaling=scale-down"}
       ]
     }
   ]
@@ -395,9 +403,10 @@ const contactInfo = {
 
 //Twitter Section
 
-const twitterDetails = {
+/*const twitterDetails = {
 
   userName : "twitter"//Replace "twitter" with your twitter username without @
 
-};
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+};*/
+
+export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, blogSection, talkSection, podcastSection, contactInfo };

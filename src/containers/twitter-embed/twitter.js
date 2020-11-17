@@ -5,7 +5,7 @@ import { TwitterTimelineEmbed } from "react-twitter-embed";
 import { twitterDetails } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
-const renderLoader = () => <Loading />;
+/*const renderLoader = () => <Loading />;
 const cantDisplayError =
   "<div class='centerContent'><h2>Can't load? Check privacy protection settings</h2></div>";
 
@@ -45,4 +45,4 @@ export default function Twitter() {
   } else {
     return null;
   }
-}
+}*/
