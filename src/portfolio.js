@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Kilian Mayans",
   title: "Hi all, I'm Kilian",
-  subTitle: emoji("A passionate Full-Stack Developer 🚀🖥️ developing a passion of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Flutter and some other cool libraries and frameworks. And I code a lot of bugs too. 🤓"),
+  subTitle: emoji("A passionate Full-Stack Developer 🚀🖥️ developing a passion of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Flutter and some other cool libraries and frameworks. Oh, and I code a lot of bugs too. 🤓"),
   resumeLink: "https://www.dropbox.com/s/u2pi3x6czg9n40e/CV%20KILIAN%20MAYANS%20EPI%20v4_EN.pdf?dl=0",
   resumeLink2: "https://www.dropbox.com/s/w98mqe804liniaw/CV%20KILIAN%20MAYANS%20EPI%20v4_FR.pdf?dl=0"
 };
@@ -203,25 +203,50 @@ const workExperiences = {
       company: "AUTO-ENTREPRISE MAYANS",
       companylogo: require("./assets/images/MAYANS_Kilian_+Z.jpg"),
       date: "October 2020 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Mobile, web and software development and maintenance | Web consulting",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Mobile, web and software development",
+        "Maintenance and addition of functionalities on existing projects",
+        "Consultant in many companies that needed web / mobile solutions",
+        "Formation on tools like Git"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Voice Assistants Developer",
+      company: "ELCIA",
+      companylogo: require("./assets/images/elciaLogo.jpg"),
+      date: "April 2019 – July 2019",
+      desc: "3rd-year internship | Voice assistant developer within the Research & Development department in the ClientsApps team | Research and development of the different connected speakers on the current market.",
+      descBullets: [
+          "Skills/Actions on Alexa and Google Assistant",
+          "Agile methods",
+          "Python",
+          "AWS"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full-Stack Developer",
+      company: "AUTO-ENTREPRISE MAYANS",
+      companylogo: require("./assets/images/MAYANS_Kilian_+Z.jpg"),
+      date: "December 2017 – April 2019",
+      desc: "Mobile, web and software development and maintenance.",
+      descBullets: [
+          "Mobile, web and software development",
+          "Maintenance and addition of functionalities on existing projects"
+      ]
+    },
+    {
+      role: "Back-End Developer",
+      company: "Acti",
+      companylogo: require("./assets/images/actiLogo.jpg"),
+      date: "July 2017 – December 2017",
+      desc: "2nd-year internship | Worked on websites such as Le Petit-Paumé, Ravifruit and given some development support on Val Thorens, Courchevel and ESCP Europe websites.",
+      descBullets: [
+        "Back-End development (PHP)",
+        "WordPress",
+        "Woocommerce",
+        "Drupal 7"
+      ]
     },
   ]
 };
