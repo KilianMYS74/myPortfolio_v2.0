@@ -116,7 +116,8 @@ const educationInfo = {
         "Project Management",
         "Web, mobile and software development",
         "Network and system administration"  ,
-        "Business-IT"
+        "Business-IT",
+        "..."
       ]
     },
     {
@@ -124,10 +125,14 @@ const educationInfo = {
       logo: require("./assets/images/escpLogo.png"),
       subHeader: "Entrepreunarial formation called Option E",
       duration: "September 2020 - January 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      desc: "Activities and associations: Double Master 2 in partnership with EPITECH - Epitech Innovative Project (EIP) and Tech consulting (for Option E groups)",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Design thinking & innovation",
+        "Finance and venture capital",
+        "Pitching",
+        "Prototyping and market testing",
+        "Startup ecosystems",
+        "..."
       ]
     },
     {
