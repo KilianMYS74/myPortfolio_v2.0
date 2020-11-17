@@ -9,8 +9,9 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Kilian Mayans",
   title: "Hi all, I'm Kilian",
-  subTitle: emoji("A passionate Full-Stack Developer 🚀🖥️ developing a passion of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Flutter and some other cool libraries and frameworks."),
-  resumeLink: "https://www.dropbox.com/s/u2pi3x6czg9n40e/CV%20KILIAN%20MAYANS%20EPI%20v4_EN.pdf?dl=0"
+  subTitle: emoji("A passionate Full-Stack Developer 🚀🖥️ developing a passion of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Flutter and some other cool libraries and frameworks. And I code a lot of bugs too. 🤓"),
+  resumeLink: "https://www.dropbox.com/s/u2pi3x6czg9n40e/CV%20KILIAN%20MAYANS%20EPI%20v4_EN.pdf?dl=0",
+  resumeLink2: "https://www.dropbox.com/s/w98mqe804liniaw/CV%20KILIAN%20MAYANS%20EPI%20v4_FR.pdf?dl=0"
 };
 
 // Your Social Media Link
@@ -109,10 +110,13 @@ const educationInfo = {
       logo: require("./assets/images/epitechLogo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "September 2019 - July 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      desc: "Activities and associations: Epitech Innovative Project (EIP)",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Agile methods",
+        "Project Management",
+        "Web, mobile and software development",
+        "Network and system administration"  ,
+        "Business-IT"
       ]
     },
     {
