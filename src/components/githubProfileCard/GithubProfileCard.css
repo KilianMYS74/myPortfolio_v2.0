@@ -1,12 +1,12 @@
 .profile-image {
   border-radius: 50%;
-  border: 0.5rem solid #6c63ff;
+  border: .5rem solid #6c63ff;
   margin-left: auto;
   width: 100%;
   max-width: 350px;
   height: auto;
-  box-shadow: rgba(0, 0, 0, 1) 0 30px 30px -30px;
-  transition: all 0.3s ease-out;
+  box-shadow: 0 30px 30px -30px #000;
+  transition: all .3s ease-out;
 }
 
 .profile-image:hover {

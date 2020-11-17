@@ -28,7 +28,7 @@ export default function Contact() {
                     isDark ? "dark-mode contact-text-div" : "contact-text-div"
                   }
               >
-                <a className="contact-detail" href={ contactInfo.desc }>
+                <a className="contact-detail-desc" href={ contactInfo.desc }>
                   {contactInfo.desc}
                 </a>
                 <br/>
