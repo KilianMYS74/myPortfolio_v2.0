@@ -113,7 +113,7 @@ const educationInfo = {
       desc: "Activities and associations: Epitech Innovative Project (EIP).",
       descBullets: [
         "Agile methods",
-        "Project Management",
+        "Group/Project Management",
         "Web, mobile and software development",
         "Network and system administration"  ,
         "Business-IT",
@@ -156,10 +156,13 @@ const educationInfo = {
       logo: require("./assets/images/epitechLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2016 - September 2019",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      desc: "Activities and associations: Epitech Innovative Project (EIP) and Gym/Sport association.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Agile methods",
+        "Web, mobile and software development",
+        "Network and system administration",
+        "Group/Project management",
+        "..."
       ]
     }
   ]
