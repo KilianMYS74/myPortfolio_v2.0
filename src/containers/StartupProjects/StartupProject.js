@@ -4,7 +4,7 @@ import { bigProjects } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function StartupProject() {
+/*export default function StartupProject() {
   function openProjectInNewWindow(url) {
     var win = window.open(url, "_blank");
     win.focus();
@@ -26,7 +26,7 @@ export default function StartupProject() {
           </p>
           <div className="startup-projects-main">
             <div className="startup-project-text">
-              {bigProjects.projects.map((project) => {
+              {bigProjects.projectsCards.map((project) => {
                 return (
                   <div
                     className="big-projects-div"
@@ -43,4 +43,4 @@ export default function StartupProject() {
       </div>
     </Fade>
   );
-}
+}*/

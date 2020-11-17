@@ -264,20 +264,31 @@ const openSource = {
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME PROJECTS / TECH I WORKED ON WITHIN MY INTERNSHIPS",
-  projects: [
+  title: emoji("Big Projects 📝"),
+  subtitle: "SOME PROJECTS I WORKED ON WITHIN MY INTERNSHIPS, WITHIN MY SCHOOLS OR EVEN DURING MY FREELANCE TIME",
+
+  projectsCards: [
     {
-      image: require("./assets/images/escpBusinessSchoolLogo.jpg"),
-      link: "https://escp.eu/fr"
+      title: "ESCP Europe website",
+      subtitle: "I worked on this website thanks to my 2nd year internship at Acti.",
+      image: require("./assets/images/escpLogo.png"),
+      footerLink: [
+        { name: "View website", url: "https://escp.eu/fr" }
+      ]
     },
     {
+      title: "Ravifruit website",
+      subtitle: "I worked on this website thanks to my 2nd year internship at Acti.",
       image: require("./assets/images/ravifruitLogo.jpg"),
-      link: "https://www.ravifruit.com/fr/"
+      footerLink: [{ name: "View website", url: "https://www.ravifruit.com/fr/" }]
     },
     {
+      title: "Le Petit-Paumé website",
+      subtitle: "I worked on this website thanks to my 2nd year internship at Acti.",
       image: require("./assets/images/lepetitpaumeLogo.jpg"),
-      link: "https://petitpaume.com/"
+      footerLink: [
+        { name: "View website", url: "https://petitpaume.com/" }
+      ]
     }
   ]
 };
@@ -306,7 +317,6 @@ const achievementSection = {
       image: require("./assets/images/googleAssistantLogo.webp"),
       footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
     },
-
     {
       title: "PWA Web App Developer",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
