@@ -3,3 +3,19 @@
   color: white;
   transition: "0.1s";
 }
+
+@media (max-width: 1380px) {
+  .dark-mode {
+    background-color: #171c28;
+    color: white;
+    transition: "0.1s";
+  }
+}
+
+@media (max-width: 768px) {
+  .dark-mode {
+    background-color: #171c28;
+    color: white;
+    transition: "0.1s";
+  }
+}
