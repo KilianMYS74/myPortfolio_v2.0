@@ -8,7 +8,7 @@ export default function TalkCard({ talkDetails }) {
         <div
           class={talkDetails.isDark ? "dark-rectangle rectangle" : "rectangle"}
         >
-          <div class="diagonal-fill"></div>
+          <div class="diagonal-fill"/>
           <div class="talk-card-title">{talkDetails.title}</div>
           <p className="talk-card-subtitle">{talkDetails.subtitle}</p>
 

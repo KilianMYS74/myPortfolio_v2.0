@@ -358,11 +358,6 @@ const blogSection = {
       url: "_blank",
       title: "I haven't yet had the time or the audacity to start writing.",
       description: "But stay tuned, it will come..."
-    },
-    {
-      url: "_blank",
-      title: "I haven't yet had the time or the audacity to start writing.",
-      description: "But stay tuned, it will come..."
     }
   ]
 };

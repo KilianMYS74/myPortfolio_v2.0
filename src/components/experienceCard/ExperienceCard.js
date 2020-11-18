@@ -1,4 +1,4 @@
-import React, { useState, useEffect, createRef } from "react";
+import React, { useState, createRef } from "react";
 import "./ExperienceCard.css";
 import ColorThief from "colorthief";
 
@@ -22,7 +22,7 @@ export default function ExperienceCard({ cardInfo, isDark }) {
   return (
     <div className={isDark ? "experience-card-dark":"experience-card"}>
       <div style={{background: rgb(colorArrays) }} className="experience-banner">
-        <div className="experience-blurred_div"></div>
+        <div className="experience-blurred_div"/>
         <div className="experience-div-company">
           <h5 className="experience-text-company">{cardInfo.company}</h5>
         </div>
