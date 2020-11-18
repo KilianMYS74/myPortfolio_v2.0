@@ -54,12 +54,9 @@
 .contact-image-div > img {
   border-radius: 50%;
   border: .5rem solid #6c63ff;
-  margin-left: 500px;
-  width: 100%;
-  max-width: 350px;
+  max-width: 100%;
   height: auto;
   box-shadow: 0 30px 30px -30px #000;
-  transition: all .3s ease-out;
 }
 
 /* Media Query */
@@ -91,7 +88,7 @@
     font-size: 20px;
   }
 
-  .contact-image-div {
+/*  .contact-image-div {
     display: none;
-  }
+  }*/
 }
