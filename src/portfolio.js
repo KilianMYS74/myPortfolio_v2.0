@@ -306,6 +306,14 @@ const bigProjects = {
       footerLink: [
         { name: "View prototype", url: "https://www.figma.com/proto/daFeABulVYQBOEMilGZcqg/HFIT-Prototype?node-id=0%3A2&scaling=scale-down"}
       ]
+    },
+    {
+      title: "Portfolio",
+      subtitle: "This portfolio is my first React experience, I have to say I'm pretty proud of it. Don't hesitate to open an issue on Github or send me an email if you track down a bug.",
+      image: require("./assets/images/portfolioLogo.JPG"),
+      footerLink: [
+        { name: "View website", url: "https://www.kilianmayans.com/" }
+      ]
     }
   ]
 };
