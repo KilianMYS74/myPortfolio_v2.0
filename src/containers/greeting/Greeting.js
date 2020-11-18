@@ -32,26 +32,24 @@ export default function Greeting() {
                 {greeting.subTitle}
               </p>
               <SocialMedia />
-              <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
-                <Button
-                  text="See my english resume"
-                  newTab={true}
-                  href={greeting.resumeLink}
-                />
-                <Button
-                    text="See my french resume"
-                    newTab={true}
-                    href={greeting.resumeLink2}
-                />
-              </div>
+                <div className="button-greeting-div">
+                    <div>
+                      <a className="main-button" href="#contact">Contact me</a>
+                    </div>
+                    <div>
+                      <a className="main-button" href={greeting.resumeLink} newTab={true}>See my english resume</a>
+                    </div>
+                    <div>
+                        <a className="main-button" href={greeting.resumeLink2} newTab={true}>See my french resume</a>
+                    </div>
+                </div>
             </div>
           </div>
           <div className="greeting-image-div">
             <img
-              alt="kilian sitting on table"
-              src={require("../../assets/images/manOnTable.svg")}
-            ></img>
+    alt="kilian sitting on table"
+    src={require("../../assets/images/manOnTable.svg")}
+    />
           </div>
         </div>
       </div>
