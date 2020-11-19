@@ -42,6 +42,8 @@
 }
 @media (max-width: 320px) {
   .main-button {
-    font-size: 12px;
+    font-size: 9.5px;
+    padding: 4px 6px;
+    margin-right: 0;
   }
 }
