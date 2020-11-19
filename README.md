@@ -144,4 +144,9 @@ Do not hesitate to follow the guide [here](https://create-react-app.dev/docs/dep
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 
+## Scan my QRCODE and visit my Portfolio!
+
+![Scan my QRCODE and visit my Portfolio!](https://raw.githubusercontent.com/KilianMYS74/myPortfolio_v2.0/master/portfolioQRCODE.png)
+
 ---
+
