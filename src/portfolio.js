@@ -273,21 +273,26 @@ const bigProjects = {
       subtitle: "I worked on this website thanks to my 2nd year internship at Acti.",
       image: require("./assets/images/escpLogo.png"),
       footerLink: [
-        { name: "View website", url: "https://escp.eu/fr" }
+        { name: "View website", url: "https://escp.eu/fr" },
+        { name: "Drupal 7", url: "" }
       ]
     },
     {
       title: "Ravifruit",
       subtitle: "I worked on this website thanks to my 2nd year internship at Acti.",
       image: require("./assets/images/ravifruitLogo.jpg"),
-      footerLink: [{ name: "View website", url: "https://www.ravifruit.com/fr/" }]
+      footerLink: [
+          { name: "View website", url: "https://www.ravifruit.com/fr/" },
+          { name: "WordPress", url: "" }
+          ]
     },
     {
       title: "Le Petit-Paumé",
       subtitle: "I worked on this website thanks to my 2nd year internship at Acti.",
       image: require("./assets/images/lepetitpaumeLogo.jpg"),
       footerLink: [
-        { name: "View website", url: "https://petitpaume.com/" }
+        { name: "View website", url: "https://petitpaume.com/" },
+        { name: "Drupal 7", url: "" }
       ]
     },
     {
@@ -296,7 +301,9 @@ const bigProjects = {
       image: require("./assets/images/2021_affiche_izheal.png"),
       footerLink: [
         { name: "View website", url: "https://eip.epitech.eu/2021/izheal/" },
-        { name: "View prototype", url: "https://www.youtube.com/watch?v=2CDwEn0RJgo"}
+        { name: "View prototype", url: "https://www.youtube.com/watch?v=2CDwEn0RJgo"},
+        { name: "Python", url: ""},
+        { name: "Angular", url: ""}
       ]
     },
     {
@@ -304,7 +311,9 @@ const bigProjects = {
       subtitle: "HFIT is the main project of the Option E formation. I created the prototype thanks to Figma, feel free to take a look at it using the link below. The app will be developed thanks to Flutter. Status: work in progress.",
       image: require("./assets/images/hfitLogo.jpeg"),
       footerLink: [
-        { name: "View prototype", url: "https://www.figma.com/proto/daFeABulVYQBOEMilGZcqg/HFIT-Prototype?node-id=0%3A2&scaling=scale-down"}
+        { name: "View prototype", url: "https://www.figma.com/proto/daFeABulVYQBOEMilGZcqg/HFIT-Prototype?node-id=0%3A2&scaling=scale-down"},
+        { name: "Figma", url: ""},
+        { name: "Flutter", url: ""}
       ]
     },
     {
@@ -312,15 +321,18 @@ const bigProjects = {
       subtitle: "This portfolio is my first React experience, I have to say I'm pretty proud of it. Don't hesitate to open an issue on Github or send me an email if you track down a bug.",
       image: require("./assets/images/portfolioLogo.JPG"),
       footerLink: [
-        { name: "View website", url: "https://www.kilianmayans.com/" }
+        { name: "View website", url: "https://www.kilianmayans.com/" },
+        { name: "React", url: ""}
       ]
     },
     {
       title: "Confidential project",
-      subtitle: "This project is currently confidential, it is under development and will only be revealed once communication around it has begun. Techs used: WordPress, Woocommerce",
+      subtitle: "This project is currently confidential, it is under development and will only be revealed once communication around it has begun.",
       image: require("./assets/images/umaCasaConfidentialBlurredLogo.png"),
       footerLink: [
-        { name: "Stay tuned...", url: "https://www.kilianmayans.com/" }
+        { name: "Stay tuned...", url: "https://www.kilianmayans.com/" },
+        { name: "WordPress", url: "" },
+        { name: "Woocommerce", url: ""}
       ]
     }
   ]
