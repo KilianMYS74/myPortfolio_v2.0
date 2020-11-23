@@ -314,6 +314,14 @@ const bigProjects = {
       footerLink: [
         { name: "View website", url: "https://www.kilianmayans.com/" }
       ]
+    },
+    {
+      title: "Confidential project",
+      subtitle: "This project is currently confidential, it is under development and will only be revealed once communication around it has begun. Techs used: WordPress, Woocommerce",
+      image: require("./assets/images/umaCasaConfidentialBlurredLogo.png"),
+      footerLink: [
+        { name: "Stay tuned...", url: "https://www.kilianmayans.com/" }
+      ]
     }
   ]
 };
